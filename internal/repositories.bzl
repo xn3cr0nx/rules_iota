@@ -157,12 +157,11 @@ def load_keccak():
         name = "keccak",
         url =
             "https://github.com/xn3cr0nx/XKCP/archive/master.zip",
-        strip_prefix =
-            "XKCP-master",
+        strip_prefix = "XKCP-master",
         build_file = "@rules_iota//:build/BUILD.keccak",
-        # sha256 =
-        #     "c6afd429cb48f41fe2385fb0f796d212489ff73b14a580f2a822e307d99248b2",
     )
+    # sha256 =
+    #     "c6afd429cb48f41fe2385fb0f796d212489ff73b14a580f2a822e307d99248b2",
 
 def load_libcuckoo():
     http_archive(
