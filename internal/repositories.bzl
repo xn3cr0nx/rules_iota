@@ -152,16 +152,16 @@ def load_yaml_cpp():
         build_file = "@rules_iota//:build/BUILD.yaml_cpp",
     )
 
-def load_keccak():
-    http_archive(
-        name = "keccak",
-        url =
-            "https://github.com/xn3cr0nx/XKCP/archive/master.zip",
-        strip_prefix = "XKCP-master",
-        build_file = "@rules_iota//:build/BUILD.keccak",
-    )
+# def load_keccak():
+#     http_archive(
+#         name = "keccak",
+#         url =
+#             "https://github.com/xn3cr0nx/XKCP/archive/master.zip",
+#         strip_prefix = "XKCP-master",
+#         build_file = "@rules_iota//:build/BUILD.keccak",
+#     )
     # sha256 =
-    #     "c6afd429cb48f41fe2385fb0f796d212489ff73b14a580f2a822e307d99248b2",
+    #     "72a8d66cd8c4875d411a51c93945cecf49168e9278c59786bb62252d2885d121",
 
 def load_libcuckoo():
     http_archive(
